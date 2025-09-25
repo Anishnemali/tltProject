@@ -1,0 +1,17 @@
+.card {
+  border:1px solid #eee;
+  border-radius:8px;
+  padding:12px;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  background: #fff;
+  transition: box-shadow .15s ease;
+}
+.card:hover { box-shadow: 0 6px 18px rgba(0,0,0,0.06); }
+.imgWrap { height:160px; display:flex; align-items:center; justify-content:center; }
+.imgWrap img { max-height:100%; max-width:100%; object-fit:contain; }
+.info { display:flex; flex-direction:column; gap:8px; }
+.title { font-size:14px; line-height:1.2; height:48px; overflow:hidden; }
+.price { font-weight:700; }
+.btn { padding:8px 10px; border-radius:6px; cursor:pointer; border:1px solid #222; background:transparent; }
