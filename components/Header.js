@@ -5,7 +5,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
   return (
     <header className={styles.header}>
-      <div className={styles.brand}>YourBrand</div>
+      <div className={styles.brand}>ByteQuest</div>
 
       <nav className={styles.desktopNav}>
         <a>Home</a>
